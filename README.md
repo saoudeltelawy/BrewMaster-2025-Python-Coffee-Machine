@@ -25,10 +25,17 @@ BrewMaster 2025 is an interactive coffee machine simulation developed in Python.
   ```bash
   python main.py
 
-3.	Follow on-screen instructions:
-	•	Enter drink choice (espresso, latte, cappuccino).
-	•	Insert coins as prompted.
-	•	Get your drink and change.
+3. Follow on-screen instructions:
+	• Enter drink choice (espresso, latte, cappuccino).
+	• Insert coins as prompted.
+	• Get your drink and change.
 
-4.	Use report to view the machine’s resources.
-5.	Use off to shut down the machine
+4. Use report to view the machine’s resources.
+5. Use off to shut down the machine
+
+
+## Benefits of V2:
+	•	Handles edge cases better (e.g., insufficient resources).
+	•	Cleaner code logic with no redundant checks or operations.
+	•	User-friendly interface, especially with the formatted menu.
+	•	Scalable structure for future additions (like new drinks or features).
